@@ -2,6 +2,7 @@
 
 @Dao
 public interface TodoDao {
+
 @Query("SELECT * FROM Todo")
 List<Todo> getAll();
     @Insert
